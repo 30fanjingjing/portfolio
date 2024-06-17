@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="./css/bootstrap-4.0.0.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="./css/index.css">
+    <!-- <link href="path/to/lightbox.css" rel="stylesheet" /> -->
+    <link rel="stylesheet" href="./dist/css/lightbox.css">
 </head>
 
 <body>
@@ -22,7 +24,7 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <!--mr-auto(靠左=>預設值)
+            <!--mr-auto(靠左=>預設值)
             ml-auto(靠右)
             mx-auto(置中) 
         -->
@@ -84,39 +86,83 @@
     </section>
     <!-- NEWS -->
     <section id="作品集">
-        <div class="container">
-                <div class="info">
-                        <div class="box">
-                            <a href="./images/CIS名片設計.jpg" data-lightbox="image-1" data-title="My caption">
-                                <img src="./images/CIS名片設計.jpg" alt="">
-                            </a>
-                            <h4>CIS 名片設計</h4>
-                        </div>
-                        <div class="box">
-                                <a href="./images/POLYGEN海報設計.jpg" data-lightbox="image-1" data-title="My caption">
-                                    <img src="./images/POLYGEN海報設計.jpg" alt="">
-                                </a>
-                                <h4>POLYGEN 海報設計</h4>
-                        </div>
-                        <div class="box">
-                                <a href="./images/SWEET BLUE menu_正面.jpg" data-lightbox="image-1" data-title="My caption">
-                                    <img src="./images/SWEET BLUE menu_正面.jpg" alt="">
-                                </a>
-                                <h4>MENU 設計(正面)</h4>
-                        </div>
-                        <div class="box">
-                                <a href="./images/SWEET BLUE menu 背面.jpg" data-lightbox="image-1" data-title="My caption">
-                                    <img src="./images/SWEET BLUE menu 背面.jpg" alt="">
-                                </a>
-                                <h4>MENU 設計(背面)</h4>
-                        </div>
-                        <div class="box">
-                                <a href="./images/杯身合成.jpg" data-lightbox="image-1" data-title="My caption">
-                                    <img src="./images/杯身合成.jpg" alt="">
-                                </a>
-                                <h4>咖啡杯設計 合成示意圖</h4>
-                        </div>
+            <div class="info">
+                    <div class="box">
+                        <a href="./images/CIS名片設計.jpg" data-lightbox="image-1" data-title="CIS名片設計">
+                            <img src="./images/CIS名片設計.jpg" alt="">
+                        </a>
+                        <h4>CIS 名片設計</h4>
+                    </div>
+                    <div class="box">
+                        <a href="./images/POLYGEN海報設計.jpg" data-lightbox="image-1" data-title="POLYGEN海報設計">
+                            <img src="./images/POLYGEN海報設計.jpg" alt="">
+                        </a>
+                        <h4>POLYGEN 海報設計</h4>
+                    </div>
+                    <div class="box">
+                        <a href="./images/SWEET BLUE menu_正面.jpg" data-lightbox="image-1" data-title="menu設計(正面)">
+                            <img src="./images/SWEET BLUE menu_正面.jpg" alt="">
+                        </a>
+                        <h4>MENU 設計(正面)</h4>
+                    </div>
+                    <div class="box">
+                        <a href="./images/SWEET BLUE menu 背面.jpg" data-lightbox="image-1" data-title="menu設計(背面)">
+                            <img src="./images/SWEET BLUE menu 背面.jpg" alt="">
+                        </a>
+                        <h4>MENU 設計(背面)</h4>
+                    </div>
+                    <div class="box">
+                        <a href="./images/杯身合成.jpg" data-lightbox="image-1" data-title="杯身合成">
+                            <img src="./images/杯身合成.jpg" alt="">
+                        </a>
+                        <h4>咖啡杯設計 合成示意圖</h4>
+                    </div>
+                    <div class="box">
+                        <a href="./images/杯套合成.jpg" data-lightbox="image-1" data-title="杯套合成">
+                            <img src="./images/杯套合成.jpg" alt="">
+                        </a>
+                        <h4>杯套設計 合成示意圖</h4>
+                    </div>
                 </div>
+        <div class="container">
+            <!-- <div class="info">
+                <div class="box">
+                    <a href="./images/CIS名片設計.jpg" data-lightbox="CIS名片設計" data-title="My caption">
+                        <img src="./images/CIS名片設計.jpg" alt="">
+                    </a>
+                    <h4>CIS 名片設計</h4>
+                </div>
+                <div class="box">
+                    <a href="./images/POLYGEN海報設計.jpg" data-lightbox="POLYGEN海報設計" data-title="My caption">
+                        <img src="./images/POLYGEN海報設計.jpg" alt="">
+                    </a>
+                    <h4>POLYGEN 海報設計</h4>
+                </div>
+                <div class="box">
+                    <a href="./images/SWEET BLUE menu_正面.jpg" data-lightbox="SWEET BLUE menu_正面" data-title="My caption">
+                        <img src="./images/SWEET BLUE menu_正面.jpg" alt="">
+                    </a>
+                    <h4>MENU 設計(正面)</h4>
+                </div>
+                <div class="box">
+                    <a href="./images/SWEET BLUE menu 背面.jpg" data-lightbox="SWEET BLUE menu 背面" data-title="My caption">
+                        <img src="./images/SWEET BLUE menu 背面.jpg" alt="">
+                    </a>
+                    <h4>MENU 設計(背面)</h4>
+                </div>
+                <div class="box">
+                    <a href="./images/杯身合成.jpg" data-lightbox="杯身合成" data-title="My caption">
+                        <img src="./images/杯身合成.jpg" alt="">
+                    </a>
+                    <h4>咖啡杯設計 合成示意圖</h4>
+                </div>
+                <div class="box">
+                    <a href="./images/杯套合成.jpg" data-lightbox="杯套合成" data-title="My caption">
+                        <img src="./images/杯套合成.jpg" alt="">
+                    </a>
+                    <h4>杯套設計 合成示意圖</h4>
+                </div>
+            </div> -->
             <div class="row">
                 <!-- <div class="txt-bg">
                     <h2>NEWS</h2>
@@ -180,6 +226,11 @@
     <!-- bs主程式 -->
     <script src="./js/bootstrap-4.0.0.js"></script>
     <script src="./js/popper.min.js"></script>
+
+    <!-- jQuery 主程式 -->
+    <script src="./dist/js/lightbox-plus-jquery.js"></script>
+    <!-- 燈箱效果主程式 -->
+    <script src="./dist/js/lightbox.js"></script>
 </body>
 
 </html>

@@ -31,7 +31,7 @@ section{
     background-size: cover;
     /* 圖片從正中央往外擴 */
     background-position: center center;
-    padding-top: 200px;
+    padding-top: 100px;
 }
 
 
@@ -52,3 +52,34 @@ section{
     color: brown
 }
 
+        /* 資訊區 */
+.info{
+            /* 取消浮動方法二 */
+            /* 使用前提是因為.box有上一層 */
+            /* 多於未用完的部分隱藏 */
+            overflow:hidden;
+            /* background-color: #E4DDD2; */
+            padding: 0px 100px;
+            /* padding-left: 75px;
+            padding-right: 75px;
+            padding-top: 20px;
+            padding-bottom: 20px; */
+        }
+.info .box{
+            /* border: 1px solid red; */
+            /* 浮動練習 */
+            /* float:left; */
+            /* 水平區塊排列 */
+            display: inline-block
+        }
+.info .box img{
+            border: 3px solid #fff;
+            border-radius: 2%; 
+            margin: 20px;
+        } 
+.info .box h4{
+            text-align: center;
+            color: #ccc;
+            margin-top: 5px;
+            margin-bottom: 50px;
+        }
