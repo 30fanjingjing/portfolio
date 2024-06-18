@@ -80,6 +80,6 @@ section{
 .info .box h4{
             text-align: center;
             color: #ccc;
-            margin-top: 5px;
-            margin-bottom: 50px;
+            margin-top: 0px;
+            margin-bottom: 100px;
         }
