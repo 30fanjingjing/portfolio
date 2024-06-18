@@ -83,3 +83,12 @@ section{
             margin-top: 0px;
             margin-bottom: 100px;
         }
+.footer{
+            /* 取消浮動 (方法一) */
+            /* 不管有無上一層都可以做*/
+            /* clear: both; */
+            /* background-color: #E4DDD2; */
+            color: #1F2020;
+            text-align: center;
+            padding: 50px 0 20px;
+        }        
